@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik+Distressed&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+header{
+  height:8%;
+  width:100%;
+  background-color: #5900ff;
+  text-align: center;
+  font-size: 1.4em;
+  color: whitesmoke;
+}
+main{
+  height: 80%;
+  width: 90%;
+  margin:2% 2%;
+  background-color: linen;
+}
+#first{
+  width: 90%;
+  height: auto;
+  padding: 10px 0 10px 20px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#second{
+    margin:25px 10px 10px 10px;
+}
+
+#container{
+  margin:10px 10px 10px 10px;
+}
+#submit{
+  cursor: pointer;
+}
+#attempts{
+    margin:10px 10px 10px 10px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+#styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+#styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+#third{
+      margin: 100px 10px;
+
+}
